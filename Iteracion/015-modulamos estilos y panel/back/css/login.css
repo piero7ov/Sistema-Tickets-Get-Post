@@ -1,0 +1,96 @@
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: url('../img/fondo_mc.png') center/cover no-repeat;
+}
+
+.card {
+    width: min(420px, 92vw);
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, .08);
+    position: relative;
+}
+
+.btnlink {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: inline-block;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 12px;
+    background: rgba(27, 94, 32, .10);
+    border: 1px solid rgba(27, 94, 32, .18);
+    color: #1b5e20;
+    text-decoration: none;
+}
+
+.btnlink:hover {
+    background: rgba(27, 94, 32, .16);
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    font-weight: 900;
+    margin: 10px 0 6px;
+    color: #334155;
+}
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 12px;
+    width: 100%;
+    padding: 10px 12px;
+    border: 0;
+    border-radius: 12px;
+    background: #1b5e20;
+    color: #fff;
+    font-weight: 950;
+    cursor: pointer;
+}
+
+.err {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    background: #fff1f2;
+    border: 1px solid #fecaca;
+    color: #7f1d1d;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.muted {
+    color: #6b7280;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 4px;
+}
+
+.logo img {
+    width: 52px;
+    height: 52px;
+    filter: drop-shadow(0 10px 18px rgba(0, 0, 0, .18));
+}
